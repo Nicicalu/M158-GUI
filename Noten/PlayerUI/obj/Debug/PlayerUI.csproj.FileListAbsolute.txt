@@ -1,0 +1,55 @@
+G:\VS Project\PlayerUI\PlayerUI\bin\Debug\PlayerUI.exe.config
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.csprojResolveAssemblyReference.cache
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.Cache
+G:\VS Project\PlayerUI\PlayerUI\bin\Debug\PlayerUI.exe
+G:\VS Project\PlayerUI\PlayerUI\bin\Debug\PlayerUI.pdb
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.Form3.resources
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.exe
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.pdb
+D:\RJ Code Advance\Test Projects\PlayerUI\PlayerUI\bin\Debug\PlayerUI.exe.config
+D:\RJ Code Advance\Test Projects\PlayerUI\PlayerUI\obj\Debug\PlayerUI.exe
+D:\RJ Code Advance\Test Projects\PlayerUI\PlayerUI\obj\Debug\PlayerUI.pdb
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.csprojResolveAssemblyReference.cache
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.Form3.resources
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.Cache
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.exe
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.pdb
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\bin\Debug\PlayerUI.exe.config
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\bin\Debug\PlayerUI.exe
+C:\Users\PC05\Downloads\Modern-Media-Player-UI-C-Sharp-master\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\bin\Debug\PlayerUI.pdb
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\bin\Debug\PlayerUI.exe.config
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\bin\Debug\PlayerUI.exe
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\bin\Debug\PlayerUI.pdb
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.Cache
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.exe
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.pdb
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\obj\Debug\PlayerUI.csprojResolveAssemblyReference.cache
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\bin\Debug\Newtonsoft.Json.dll
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\bin\Debug\RestSharp.dll
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\bin\Debug\Newtonsoft.Json.xml
+E:\Modern-Media-Player-UI-C-Sharp-master\PlayerUI\bin\Debug\RestSharp.xml
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\PlayerUI.exe.config
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\PlayerUI.exe
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\PlayerUI.pdb
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\Newtonsoft.Json.dll
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\RestSharp.dll
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\Newtonsoft.Json.xml
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\RestSharp.xml
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.csprojAssemblyReference.cache
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.cache
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.csproj.CoreCompileInputs.cache
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.csproj.CopyComplete
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.exe
+E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.pdb
