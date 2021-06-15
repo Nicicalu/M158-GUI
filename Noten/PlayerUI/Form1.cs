@@ -47,10 +47,7 @@ namespace PlayerUI
         #region MediaSubMenu
         private void button2_Click(object sender, EventArgs e)
         {
-            openChildForm(new Form2());
-            //..
-            //your codes
-            //..
+            openChildForm(new Form2("Lehrling"));
             hideSubMenu();
         }
 
@@ -95,9 +92,7 @@ namespace PlayerUI
 
         private void button7_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
+            openChildForm(new Form2("Lehrzeiten"));
             hideSubMenu();
         }
 
@@ -133,9 +128,7 @@ namespace PlayerUI
 
         private void button12_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
+            openChildForm(new Form2("Firma"));
             hideSubMenu();
         }
 
@@ -167,9 +160,7 @@ namespace PlayerUI
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
+            openChildForm(new Form2("Noten"));
             hideSubMenu();
         }
         private void btnExit_Click(object sender, EventArgs e)
@@ -208,33 +199,38 @@ namespace PlayerUI
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            openChildForm(new Form2("Anrede"));
             hideSubMenu();
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            openChildForm(new Form2());
+            openChildForm(new Form2("Beruf"));
 
             hideSubMenu();
         }
 
         private void button4_Click_1(object sender, EventArgs e)
         {
+            openChildForm(new Form2("Faecher"));
             hideSubMenu();
         }
 
         private void button5_Click_1(object sender, EventArgs e)
         {
+            openChildForm(new Form2("Klasse"));
             hideSubMenu();
         }
 
         private void button6_Click_1(object sender, EventArgs e)
         {
+            openChildForm(new Form2("Ort"));
             hideSubMenu();
         }
 
         private void button9_Click_1(object sender, EventArgs e)
         {
+            openChildForm(new Form2("Lehrzeiten"));
             hideSubMenu();
         }
     }

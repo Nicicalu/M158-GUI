@@ -14,11 +14,14 @@ namespace PlayerUI
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        public string table = "";
+        public string ip = "http://192.168.210.131:5000";
+        public Form2(string thisTable)
         {
             InitializeComponent();
-            string table = "Beruf";
-            var client = new RestClient("http://192.168.210.131:5000");
+            table = thisTable;
+            label1.Text = table;
+            var client = new RestClient(ip);
             // client.Authenticator = new HttpBasicAuthenticator(username, password);
             var request = new RestRequest("API/get");
             request.RequestFormat = DataFormat.Json;
@@ -43,8 +46,7 @@ namespace PlayerUI
 
             //MessageBox.Show(editedRow.Cells[0].Value.ToString());
 
-            string table = "Beruf";
-            var client = new RestClient("http://192.168.210.131:5000");
+            var client = new RestClient(ip);
 
 
             var request = new RestRequest("API/del");
@@ -55,7 +57,6 @@ namespace PlayerUI
             Console.WriteLine(content);
 
             int i = 0;
-            int j = 0;
             
             foreach (DataGridViewRow row in dataGridView1.Rows)
             {
@@ -73,20 +74,22 @@ namespace PlayerUI
                         {
                             
                         }
-         
                     }
                     i++;
                 }
 
                 string json = JsonConvert.SerializeObject(dict);
-                MessageBox.Show(json);
+                //MessageBox.Show(json);
+                if(json != "{}")
+                {
+                    request = new RestRequest("API/set");
+                    request.RequestFormat = DataFormat.Json;
+                    request.AddParameter("application/json", "{\"table\": \"" + table + "\", \"data\": "+json+"}", ParameterType.RequestBody);
+                    response = client.Post(request);
+                    content = response.Content; // Raw content as string
+                    Console.WriteLine(content);
+                }
 
-                request = new RestRequest("API/set");
-                request.RequestFormat = DataFormat.Json;
-                request.AddParameter("application/json", "{\"table\": \"" + table + "\", \"data\": "+json+"}", ParameterType.RequestBody);
-                response = client.Post(request);
-                content = response.Content; // Raw content as string
-                Console.WriteLine(content);
             }
 
         }
@@ -120,6 +123,39 @@ namespace PlayerUI
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+            string searchValue = textBox1.Text;
+
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            try
+            {
+                foreach (DataGridViewRow row in dataGridView1.Rows)
+                {
+                row.Selected = false;
+                foreach (DataGridViewColumn column in dataGridView1.Columns)
+                    {
+                        try
+                        {
+                            if (row.Cells[column.Index].Value.ToString().Contains(searchValue) && row.Cells[column.Index].Value.ToString() != "")
+                            {
+                                row.Selected = true;
+                            }
+                        }
+                        catch (Exception exc)
+                        {
+                            //MessageBox.Show(exc.Message);
+                        }
+                    }
+            }
+            }
+            catch (Exception exc)
+            {
+                Console.WriteLine(exc.Message);
+                //MessageBox.Show(exc.Message);
+            }
         }
     }
 }
