@@ -40,12 +40,8 @@ namespace PlayerUI
             dataGridView1.DataSource = dataTable;
         }
 
-        private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        public void setData()
         {
-            var editedRow = dataGridView1.Rows[e.RowIndex];
-
-            //MessageBox.Show(editedRow.Cells[0].Value.ToString());
-
             var client = new RestClient(ip);
 
 
@@ -57,14 +53,14 @@ namespace PlayerUI
             Console.WriteLine(content);
 
             int i = 0;
-            
+
             foreach (DataGridViewRow row in dataGridView1.Rows)
             {
                 var dict = new Dictionary<string, string>();
                 i = 0;
-                foreach(DataGridViewColumn column in dataGridView1.Columns)
+                foreach (DataGridViewColumn column in dataGridView1.Columns)
                 {
-                    if(i < dataGridView1.Columns.Count)
+                    if (i < dataGridView1.Columns.Count)
                     {
                         try
                         {
@@ -72,7 +68,7 @@ namespace PlayerUI
                         }
                         catch
                         {
-                            
+
                         }
                     }
                     i++;
@@ -80,18 +76,28 @@ namespace PlayerUI
 
                 string json = JsonConvert.SerializeObject(dict);
                 //MessageBox.Show(json);
-                if(json != "{}")
+                if (json != "{}")
                 {
                     request = new RestRequest("API/set");
                     request.RequestFormat = DataFormat.Json;
-                    request.AddParameter("application/json", "{\"table\": \"" + table + "\", \"data\": "+json+"}", ParameterType.RequestBody);
+                    request.AddParameter("application/json", "{\"table\": \"" + table + "\", \"data\": " + json + "}", ParameterType.RequestBody);
                     response = client.Post(request);
                     content = response.Content; // Raw content as string
                     Console.WriteLine(content);
                 }
 
             }
+        }
 
+        private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            setData();
+
+        }
+
+        private void dataGridView1_UserDeletedRow(object sender, DataGridViewRowEventArgs e)
+        {
+            setData();
         }
 
         private void button5_Click(object sender, EventArgs e)

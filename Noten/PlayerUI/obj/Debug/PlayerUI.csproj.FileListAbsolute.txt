@@ -44,7 +44,6 @@ E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\Newtonsof
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\RestSharp.dll
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\Newtonsoft.Json.xml
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\RestSharp.xml
-E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.csprojAssemblyReference.cache
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.Form1.resources
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.Form2.resources
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
