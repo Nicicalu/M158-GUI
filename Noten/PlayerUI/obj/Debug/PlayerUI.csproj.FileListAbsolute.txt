@@ -44,10 +44,6 @@ E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\Newtonsof
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\RestSharp.dll
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\Newtonsoft.Json.xml
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\bin\Debug\RestSharp.xml
-<<<<<<< HEAD
-=======
-E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.csprojAssemblyReference.cache
->>>>>>> 07a99eb1028bb6de68a34fd7971f7938737a4ecb
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.Form1.resources
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.Form2.resources
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
@@ -56,7 +52,6 @@ E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.csproj.CopyComplete
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.exe
 E:\OneDrive\GBC\Informatik\Dokumente\M158\Gui\Noten\PlayerUI\obj\Debug\PlayerUI.pdb
-<<<<<<< HEAD
 C:\Users\PC15\Downloads\M158-GUI-master\M158-GUI-master\Noten\PlayerUI\bin\Debug\PlayerUI.exe.config
 C:\Users\PC15\Downloads\M158-GUI-master\M158-GUI-master\Noten\PlayerUI\bin\Debug\PlayerUI.exe
 C:\Users\PC15\Downloads\M158-GUI-master\M158-GUI-master\Noten\PlayerUI\bin\Debug\PlayerUI.pdb
@@ -86,5 +81,3 @@ E:\Dietrich\M158\GUI\M158-GUI\Noten\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateR
 E:\Dietrich\M158\GUI\M158-GUI\Noten\PlayerUI\obj\Debug\PlayerUI.exe
 E:\Dietrich\M158\GUI\M158-GUI\Noten\PlayerUI\obj\Debug\PlayerUI.pdb
 E:\Dietrich\M158\GUI\M158-GUI\Noten\PlayerUI\obj\Debug\PlayerUI.Login.resources
-=======
->>>>>>> 07a99eb1028bb6de68a34fd7971f7938737a4ecb
