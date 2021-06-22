@@ -124,6 +124,9 @@
             this.textBox1.TabIndex = 8;
             this.textBox1.Text = "Suche...";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            this.textBox1.GotFocus += new System.EventHandler(this.textBox1_RemoveText);
+            this.textBox1.LostFocus += new System.EventHandler(this.textBox1_AddText);
+
             // 
             // Form2
             // 

@@ -85,6 +85,7 @@ namespace PlayerUI
             else
             {
                 MessageBox.Show("Login erfolgreich!");
+                this.Close();
             }
             var form1 = Application.OpenForms.OfType<Form1>().First();
             form1.loginStatus = Int32.Parse(content);

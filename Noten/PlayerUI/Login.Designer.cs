@@ -37,9 +37,9 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -73,9 +73,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(76, 241);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(75, 241);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 20);
+            this.button1.Size = new System.Drawing.Size(86, 29);
             this.button1.TabIndex = 3;
             this.button1.Text = "Anmelden";
             this.button1.UseVisualStyleBackColor = true;
@@ -83,9 +84,10 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(167, 241);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(85, 20);
+            this.button2.Size = new System.Drawing.Size(85, 29);
             this.button2.TabIndex = 4;
             this.button2.Text = "Abbrechen";
             this.button2.UseVisualStyleBackColor = true;
@@ -127,6 +129,17 @@
             this.label1.Text = "Benutzername:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::PlayerUI.Properties.Resources.pic;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(113, 35);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(99, 99);
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
+            // 
             // maskedTextBox2
             // 
             this.maskedTextBox2.Location = new System.Drawing.Point(75, 170);
@@ -144,21 +157,11 @@
             this.maskedTextBox1.TabIndex = 2;
             this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::PlayerUI.Properties.Resources.pic;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(113, 35);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(99, 99);
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::PlayerUI.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(1062, 676);
             this.Controls.Add(this.panel5);

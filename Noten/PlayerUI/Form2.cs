@@ -163,5 +163,19 @@ namespace PlayerUI
                 //MessageBox.Show(exc.Message);
             }
         }
-    }
+
+        public void textBox1_RemoveText(object sender, EventArgs e)
+        {
+                if (textBox1.Text == "Suche...")
+                {
+                textBox1.Text = "";
+                }
+        }
+
+        public void textBox1_AddText(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox1.Text))
+                textBox1.Text = "Suche...";
+        }
+}
 }
