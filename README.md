@@ -5,6 +5,10 @@ Dies ist das Repository des Modul 158 -> GUI
 ## Vorbereitungen
 Die Software funktioniert nur, wenn sie eine Verbindung zu der API herstellen kann.
 
+### GUI
+- Das GUI wurde als Code und als Setup abgegeben
+- Adminuser: `nici`, `123` --> kann auch selber in der Datenbank mit einem SHA256-Hash erstellt werden
+
 ### API
 - Die API muss auf der IP-Adresse `192.168.210.131` und dem Port `5000` erreichbar sein.
 - Die API ist auf der VM, welche wir abgegeben haben, abgelegt. 
