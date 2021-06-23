@@ -91,13 +91,11 @@ namespace PlayerUI
 
         private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
-            setData();
 
         }
 
         private void dataGridView1_UserDeletedRow(object sender, DataGridViewRowEventArgs e)
         {
-            setData();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -177,5 +175,10 @@ namespace PlayerUI
             if (string.IsNullOrWhiteSpace(textBox1.Text))
                 textBox1.Text = "Suche...";
         }
-}
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            setData();
+        }
+    }
 }
