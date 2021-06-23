@@ -434,7 +434,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PlayerUI.Properties.Resources.pic;
+            this.pictureBox1.Image = global::Gradez.Properties.Resources.pic;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(230, 92);
@@ -465,7 +465,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox9.Image = global::PlayerUI.Properties.Resources.text;
+            this.pictureBox9.Image = global::Gradez.Properties.Resources.text;
             this.pictureBox9.Location = new System.Drawing.Point(0, 0);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(1434, 801);

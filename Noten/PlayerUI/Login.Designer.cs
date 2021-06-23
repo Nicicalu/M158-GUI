@@ -131,7 +131,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::PlayerUI.Properties.Resources.pic;
+            this.pictureBox2.BackgroundImage = global::Gradez.Properties.Resources.pic;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(113, 35);
             this.pictureBox2.Name = "pictureBox2";
@@ -162,7 +162,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.BackgroundImage = global::PlayerUI.Properties.Resources.background;
+            this.BackgroundImage = global::Gradez.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(1062, 676);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
